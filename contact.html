@@ -103,27 +103,26 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="index.html" method="post" role="form">
-              <div class="row">
-                <div class="col-md-6 form">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" required>
-                </div>
-                <div class="col-md-6 form mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" required>
-                </div>
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Nome:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" required placeholder="Nome Completo">
               </div>
-              <div class="form mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" required placeholder="name@example.com">
               </div>
-              <div class="form mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Assunto:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" required placeholder="Assunto da mensagem">
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Sua mensagem foi enviada. Muito Obrigado!</div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Mensagem:</label>
+                <textarea class="form-control" style="resize: none" id="exampleFormControlTextarea1" placeholder="Mensagem" rows="5"></textarea>
               </div>
-              <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
+              <button type="submit" style="margin-top: 7px;" >Enviar</button>
+
+            </form><div class="text-center"><button type="submit">Enviar Mensagem</button></div>
             </form>
           </div>
 
