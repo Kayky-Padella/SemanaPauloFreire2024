@@ -671,6 +671,10 @@ section {
   padding: 0%;
 }
 
+.container{
+  padding: 1%;
+}
+
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
